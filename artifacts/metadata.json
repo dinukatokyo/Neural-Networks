@@ -1,0 +1,62 @@
+{
+  "features": [
+    "Support Calls",
+    "Payment Delay",
+    "Total Spend",
+    "Last Interaction"
+  ],
+  "seed": 42,
+  "epochs": 20,
+  "best_epoch": 20,
+  "batch_size": 512,
+  "cleaning": {
+    "raw_rows": 440833,
+    "invalid_rows_removed": 1,
+    "duplicate_rows_removed": 2208,
+    "clean_rows": 438624
+  },
+  "splits": {
+    "train": 280719,
+    "validation": 70180,
+    "test": 87725
+  },
+  "scaler_mean": [
+    3.5963365500732047,
+    12.950455793872164,
+    632.3225320338132,
+    14.475450539507479
+  ],
+  "scaler_scale": [
+    3.0656897292162837,
+    8.252619264534752,
+    240.51400899903368,
+    8.595434372512518
+  ],
+  "feature_min": {
+    "Support Calls": 0.0,
+    "Payment Delay": 0.0,
+    "Total Spend": 100.0,
+    "Last Interaction": 1.0
+  },
+  "feature_max": {
+    "Support Calls": 10.0,
+    "Payment Delay": 30.0,
+    "Total Spend": 1000.0,
+    "Last Interaction": 30.0
+  },
+  "feature_median": {
+    "Support Calls": 3.0,
+    "Payment Delay": 12.0,
+    "Total Spend": 661.8,
+    "Last Interaction": 14.0
+  },
+  "external_cleaning": {
+    "raw_rows": 64374,
+    "invalid_rows_removed": 0,
+    "duplicate_rows_removed": 199,
+    "clean_rows": 64175,
+    "overlapping_feature_rows_removed": 1391
+  },
+  "threshold": 0.5,
+  "parameter_count": 81
+}
